@@ -1,6 +1,7 @@
 # passphrase-generator
 
-A web extension for Firefox and Chrome that
+A web extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/passphrase-generator/)
+and [Chrome](https://chrome.google.com/webstore/detail/passphrase-generator/iliehbhfgfbjllfhhbbceochgmkkhpcb) that
 generates a random passphrase from the
 [EFF long wordlist](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases).
 
