@@ -1,8 +1,9 @@
 # passphrase-generator
 
 A web extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/passphrase-generator/)
-and [Chrome](https://chrome.google.com/webstore/detail/passphrase-generator/iliehbhfgfbjllfhhbbceochgmkkhpcb)
-that generates a passphrase by randomly selecting words from the [EFF long wordlist](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
+and [Chrome](https://chrome.google.com/webstore/detail/passphrase-generator/iliehbhfgfbjllfhhbbceochgmkkhpcb).
+
+Generates a passphrase by randomly selecting words from the [EFF long wordlist](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
 using the browser's [crypto RNG](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 A six word phrase takes, on average, 3500 years to guess at 1 trillon guesses per second.
 No information is sent to, or received from, outside the browser.
