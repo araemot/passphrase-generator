@@ -5,7 +5,7 @@ and [Chrome](https://chrome.google.com/webstore/detail/passphrase-generator/ilie
 
 Generates a passphrase by randomly selecting words from the [EFF long wordlist](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
 using the browser's [crypto RNG](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
-A six word phrase takes an averageof 3500 years to guess at 1 trillion guesses per second.
+A six word phrase takes an average of 3500 years to guess at 1 trillion guesses per second.
 The phrase is generated entirely in the browser,
 no information is sent to or received from anywhere else.
 
