@@ -12,7 +12,8 @@ no information is sent to or received from anywhere else.
 Click the dice icon to generate the passphrase,
 then drag and drop the phrase where you want.
 Alternatively, you can copy and paste the phrase.
-Other apps, however, can then read your passphrase from the clipboard, making copy and paste less secure.
+Other apps, however, can then read your passphrase from the clipboard,
+making copy and paste less secure.
 
 In the options page you can select
 * how long the passphrase will be (by default 6 words),
