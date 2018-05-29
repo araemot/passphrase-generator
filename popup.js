@@ -2,38 +2,31 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-const DEFAULT_LENGTH = 6;
+const passphrase_length = 6;
+const words = chrome.extension.getBackgroundPage().EFF_wordlist;
 
-let background = chrome.extension.getBackgroundPage();
-
-function random(bound) {
+function random(array) {
   let draw = new Uint32Array(1);
 
-  const MAX = 0xffffffff;
-  const excess = (MAX + 1) % bound;
-  const limit = MAX - excess;
-
+  // remove modulo bias by making the RNG's range
+  // a multiple of array.length
   do {
     window.crypto.getRandomValues(draw);
-  } while (draw[0] > limit);  // correct for modulo bias
+  } while (draw[0] < (Math.pow(2,32) % array.length));
 
-  return draw[0] % bound;
+  return array[draw[0] % array.length];
 }
 
-function sample(array) {
-  return array[random(array.length)];
+function sample(array, size) {
+  return Array.from({length: size}, () => random(array));
 }
 
-function render(text) {
-  document.getElementById("passphrase").textContent = text;
-}
-
-function passphrase(length, words) {
-  return Array.from({length: length}, () => sample(words)).join(" ");
+function render(id, text) {
+  document.getElementById(id).textContent = text;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  if (background.EFF_large_wordlist.length > 0) {
-    render(passphrase(DEFAULT_LENGTH, background.EFF_large_wordlist));
+  if (words.length > 0) {
+    render("passphrase", sample(words, passphrase_length).join(" "));
   }
 });

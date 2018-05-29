@@ -1,21 +1,24 @@
 {
   "manifest_version": 2,
 
-  "name": "Passphrase Generator",
+  "name": "Simple Passphrase Generator",
   "homepage_url": "https://github.com/araemot/passphrase-generator",
 
-  "description": "Generates a random passphrase from the EFF long wordlist.",
-  "version": "1.0",
+  "description": "Generates a random passphrase from the EFF's long word list.",
+  "version": "2018.5.28",
 
   "background": {
     "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "48": "dice.png",
+    "96": "dice.png"
   },
 
   "browser_action": {
     "browser_style": false,
     "default_icon": "dice.png",
     "default_popup": "popup.html"
-  },
-
-  "permissions": ["storage", "clipboardWrite"]
+  }
 }
