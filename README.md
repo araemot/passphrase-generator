@@ -1,7 +1,7 @@
 # passphrase-generator
 
 Install for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/passphrase-generator)
-and for [Chrome] (https://chrome.google.com/webstore/detail/simple-passphrase-generat/iliehbhfgfbjllfhhbbceochgmkkhpcb).
+and for [Chrome](https://chrome.google.com/webstore/detail/simple-passphrase-generat/iliehbhfgfbjllfhhbbceochgmkkhpcb).
 
 Generates a random passphrase using the [EFF's long word list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
 and the browser's [crypto RNG](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
