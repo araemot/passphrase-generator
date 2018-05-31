@@ -12,8 +12,8 @@
   },
 
   "icons": {
-    "48": "dice.png",
-    "96": "dice.png"
+    "48": "dice48.png",
+    "96": "dice96.png"
   },
 
   "browser_action": {
