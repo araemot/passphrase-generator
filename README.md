@@ -6,7 +6,7 @@ and for [Chrome](https://chrome.google.com/webstore/detail/passphrase-generator/
 Generates a random passphrase using the [EFF's long word list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
 and the browser's [crypto RNG](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 The passphrase has an entropy of ~77 bits.
-For a stronger *password* try [password-generator](https://github.com/araemot/password-generator).
+For a stronger *password* try this [password generator](https://github.com/araemot/password-generator).
 
 The author is one of the [#MillionsMissing](https://www.meaction.net).
 Please consider donating to the [Open Medicine Foundation](https://www.omf.ngo) for much needed research.
