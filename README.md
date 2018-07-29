@@ -9,7 +9,7 @@ The passphrase has an entropy of ~77 bits.
 For a stronger *password* try this [password generator](https://github.com/araemot/password-generator).
 
 The author is one of the [#MillionsMissing](https://www.meaction.net).
-Please consider donating to the [Open Medicine Foundation](https://www.omf.ngo) for much needed research.
+If you find this software useful, please consider donating to the [Open Medicine Foundation](https://www.omf.ngo) for much needed research.
 Thank you.
 
 Dice icon by [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar)
