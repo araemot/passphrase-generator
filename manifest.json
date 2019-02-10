@@ -5,7 +5,7 @@
   "homepage_url": "https://github.com/araemot/passphrase-generator",
 
   "description": "Generates a secure passphrase from the EFF's long word list.",
-  "version": "2018.5.28",
+  "version": "2018.5.28.2",
 
   "background": {
     "scripts": ["background.js"]
@@ -13,7 +13,8 @@
 
   "icons": {
     "48": "dice48.png",
-    "96": "dice96.png"
+    "96": "dice96.png",
+    "128": "dice128.png"
   },
 
   "browser_action": {
